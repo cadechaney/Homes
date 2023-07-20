@@ -5,7 +5,7 @@ import { Component } from '@angular/core';
   template:
     `<main>
       <header class="brand-name">
-        <img class="brand-logo" src="/assets/youngSiblings.jpg" alt="logo" aria-hidden="true" height=250>
+        <img class="brand-logo" src="/assets/house.png" alt="logo" aria-hidden="true" height=50>
       </header>
       <section class="content">
         <app-home></app-home>
