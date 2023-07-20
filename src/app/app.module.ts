@@ -5,6 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
 import { HomeComponent } from './home/home.component';
+import { HousingLocationComponent } from './housing-location/housing-location.component';
 
 @NgModule({
   declarations: [
@@ -13,7 +14,8 @@ import { HomeComponent } from './home/home.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HomeComponent
+    HomeComponent,
+    HousingLocationComponent
 
   ],
   providers: [],
