@@ -6,6 +6,8 @@ import { Housinglocation } from './housinglocation';
 })
 export class HousingService {
 
+  readonly baseUrl = 'https://angular.io/assets/images/tutorials/faa'
+
   constructor() { 
   }
 
